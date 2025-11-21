@@ -19,7 +19,10 @@
 #define _ESP8266SAM_H
 
 #include <Arduino.h>
-#include <AudioOutput.h>
+
+// Forward declaration - AudioOutput interface is provided by the application
+// This allows ESP8266SAM to work without requiring the full ESP8266Audio library
+class AudioOutput;
 
 class ESP8266SAM {
 

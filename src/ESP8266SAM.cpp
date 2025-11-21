@@ -18,6 +18,7 @@
 
 #include <Arduino.h>
 #include <ESP8266SAM.h>
+#include "AudioOutput.h"
 
 #include "reciter.h"
 #include "sam.h"
